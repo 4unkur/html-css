@@ -1,0 +1,77 @@
+/**************reset************/
+body, h1, h2, h3, h4, h5, h6, p, div, article, aside, main, section, ul {
+	margin: 0;
+	padding: 0;
+}
+
+body {
+	background: #F9FAFB;
+	color: #222;
+	font-family: 'Abel', sans-serif;
+	font-size: 18px;
+	text-align: center;
+
+}
+#wrap {
+	background: #eee url(../images/geometry2.png);
+	margin: auto;
+	max-width: 900px;
+}
+header {
+	background: #292929 url(../images/footer_lodyas.png);
+	padding: 20px;
+}
+
+	.under-logo {
+		color: #eee;
+		font-family: 'Lobster', cursive;
+		font-weight: normal;
+		margin-top: -20px;
+	}
+	.about {
+		font-family: 'Oswald', sans-serif;
+		padding-bottom: 20px;
+		padding-top: 45px;
+	}
+
+
+.list_of_works {
+	list-style: none;
+	padding: 15px 150px;
+	text-align: left;
+}
+	a {
+		color: #333;
+		text-decoration: none;
+	}
+	a:hover {
+		color: #F92672;
+	}
+	a:active {
+		text-decoration: underline;
+	}
+	a:visited {
+		color: #8A25C0;
+	}
+
+	.list_of_works li a img {
+		float: left;
+		margin-right: 20px;
+	}
+
+	.list_of_works li {
+		border-radius: 15px;
+		border: 1px solid #ccc;
+		height: 130px;
+		margin: 10px;
+		padding: 15px 30px;
+	}
+
+footer {
+	background: #292929 url(../images/footer_lodyas.png);
+	padding: 20px;
+}
+	.copyright {
+		color: #eee;
+	}
+/*www.subtlepatterns.com*/
