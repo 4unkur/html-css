@@ -1,0 +1,143 @@
+/*reset*/
+body, aside, nav, main, h1, h2, h3, h4, p {
+	padding: 0;
+	margin: 0;
+	font-family: Verdana,Tahoma,sans-serif;
+}
+body {
+	background-color: #E0E0E0;
+}
+.menu {
+	float: left;
+	/*outline: 1px solid red;*/
+	background-color: #E0E0E0;
+	position: fixed;
+	height: 100%;
+	border-right: 2px solid #C0C0C0;
+	width: 220px;
+}
+	.company-name {
+		font-size: 19px;
+		color: #A1B449;
+		letter-spacing: -2px;
+		/*outline: 1px solid red;*/
+		margin: 20px 15px 0 0;
+		text-align: right;
+	}
+	.slogan {
+		font-size: 13px;
+		color: #808080;
+		letter-spacing: -1px;
+		text-align: right;
+		margin-right: 15px;
+	}
+	nav {
+		margin-top: 20px;
+	}
+		nav a {
+			font-size: 22px;
+			color: #606060;
+			letter-spacing: -2px;
+			text-transform: capitalize;
+			display: block;
+			text-align: right;
+			text-decoration: none;
+			padding: 5px 15px;
+		}
+			nav .active {
+				position: relative;
+				width: 192px;
+				border-right: 0px solid #fafafa;
+				border-bottom: 2px solid #C0C0C0;
+				border-top: 2px solid #C0C0C0;
+				background-color: #FAFAFA;
+			}
+			nav a:hover {
+				background-color: #F0F0F0;
+				color: #F0F0F0;
+			}
+
+
+main {
+	background-color: #FAFAFA;
+	margin-left: 222px;
+	padding: 20px 10px;
+	width: 535px;
+	border-right: 2px solid #C0C0C0;
+	/*outline: 1px solid red;*/
+}
+	.main-heading {
+		font-size: 49px;
+		color: #A1B449;
+		letter-spacing: -5px;
+		text-align: center;
+	}
+	.under-heading {
+		font-size: 30px;
+		letter-spacing: -2px;
+		font-weight: normal;
+		text-align: center;
+		color: #808080;
+		margin-bottom: 25px;
+	}
+	.text-title {
+		font-weight: normal;
+		font-size: 23px;
+		letter-spacing: -2px;
+		color: #A1B46F;
+		margin-left: 10px;
+		margin-bottom: 10px;
+	}
+	.text {
+		font-size: 13px;
+		color: #303030;
+		margin-left: 10px;
+		/*outline: 1px solid red;*/
+		width: 510px;
+		letter-spacing: -0.5px;
+		line-height: 1.4;
+		margin-bottom: 30px;
+	}
+	.text + img {
+		margin-left: 10px;
+		outline: 1px solid #D0D0D0;
+		margin-bottom: 20px;
+		border: 1px solid #fff;
+	}
+	a > img {
+		border: 1px solid #fff;
+		outline: 1px solid #A1B46F;
+		margin-left: 10px;
+		float: left;
+		margin-right: 15px;
+	}
+		a > img:hover {
+			border: 1px solid #A1B46F;
+		}
+	.copyright {
+		font-size: 12px;
+		text-align: right;
+		color: #303030;
+		margin-bottom: 50px;
+		margin-right: 15px;
+	}
+	.link {
+		font-size: 12px;
+		color: #A1B46F;
+		font-weight: bold;
+		text-align: right;
+		float: right;
+		bottom: 0;
+		right: 10px;
+	}
+		.link a {
+			text-decoration: none;
+			color: inherit;
+		}
+			.link a:hover {
+				color: #808080;
+				text-decoration: underline;
+			}
+
+/*{text-transform:capitalize;
+Verdana,Tahoma,sans-serif;*/
